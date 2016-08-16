@@ -1,6 +1,6 @@
 stories
 
 {{#each model as |story|}}
-  <h2>{{story.title}}</h2>
-  <img src={{story.image}} alt={{story.section}} />
+  {{#link-to 'story' story.id}}<h2>{{story.title}}</h2>{{/link-to}}
+  {{#link-to 'story' story.id}}<img src={{story.image}} alt={{story.section}} />{{/link-to}}
 {{/each}}
