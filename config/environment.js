@@ -4,6 +4,12 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'bustle-clone',
     environment: environment,
+    firebase: {
+      apiKey: "AIzaSyDmG1IFu3qkQ8FkQFoe3vlOCIB_7T-yYCY",
+      authDomain: "bustle-clone-b5226.firebaseapp.com",
+      databaseURL: "https://bustle-clone-b5226.firebaseio.com",
+      storageBucket: "bustle-clone-b5226.appspot.com",
+    },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
